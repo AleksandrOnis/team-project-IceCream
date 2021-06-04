@@ -13,7 +13,7 @@ body {
   font-family: 'DM Sans', sans-serif;
   // font-family: 'Titan One', cursive;
   letter-spacing: 0.04em;
-  // color: $primary-text-color;
+  // color: var(--primary-text-color);
 }
 
 h1,
@@ -44,11 +44,11 @@ img {
 .link {
   text-decoration: none;
   color: inherit;
-  // transition: color $duration $timing-function;
+  transition: color var(--duration) var(--timing-function);
 }
 
 .icon {
   fill: currentColor;
-  // transition: color $duration $timing-function;
+  transition: color var(--duration) var(--timing-function);
 }
 

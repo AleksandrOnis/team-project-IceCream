@@ -1,8 +1,14 @@
-// $timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-// $duration: 250ms;
-// $primary-text-color: #757575;
-// $title-text-color: #212121;
-// $accent-color: #2196f3;
-// $bg-primary-color: #ffffff;
-// $bg-secondary-color: #2f303a;
-// $bg-btn-additional: #f5f4fa;
+:root {
+  --title-color: #d41443;
+  --label-color: #ffa5ba;
+  --primary-text-color: #000000;
+  --inversion-text-color: #ffffff;
+  --secondary-text-color: #907e82;
+  --btn-primary-color: #ffffff;
+  --btn-accent-color: #ecebeb;
+  --btn-secondary-color: #d41443;
+  --bg-primary-color: #fff5f6;
+  --bg-secondary-color: #ffffff;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration: 250ms;
+}

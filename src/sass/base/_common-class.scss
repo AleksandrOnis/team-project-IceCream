@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  min-width: 480px;
+  font-family: 'DM Sans', 'arial', sans-serif;
+  letter-spacing: 0.04em;
+  // color: $primary-text-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Общие классы */
+.list {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+  font-style: normal;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  // transition: color $duration $timing-function;
+}
+
+.icon {
+  fill: currentColor;
+  // transition: color $duration $timing-function;
+}
+

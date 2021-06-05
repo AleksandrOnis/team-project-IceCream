@@ -1,1 +1,66 @@
+.about {
+  width: 100%;
+  margin: 0 auto;
+  background-color: var(--bg-primary-color);
+}
 
+.advantages {
+  background-color: var(--bg-primary-color);
+}
+
+.about__title {
+  margin-bottom: 26px;
+}
+
+.about__label {
+  margin-bottom: 15px;
+}
+
+.about__text {
+  margin-bottom: 47px;
+
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.62;
+
+  color: var(--primary-text-color);
+}
+
+.about__text--bottom {
+  margin-bottom: 47px;
+
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.62;
+
+  color: var(--secondary-text-color);
+}
+
+.btn {
+  color: var(--btn-secondary-color);
+  background: var(--btn-primary-color);
+  border-radius: 22px;
+}
+
+.advantages__figures {
+  display: block;
+  //   width: 98px;
+  margin-bottom: 15px;
+  font-family: Titan One;
+  font-size: 36px;
+  line-height: 1.14;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: var(--title-color);
+}
+.advantages__text {
+  margin-right: 70px;
+  margin-bottom: 38px;
+
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.7;
+
+  color: var(--primary-text-color);
+}

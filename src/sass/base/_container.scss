@@ -3,19 +3,19 @@
   padding-right: 20px;
   width: 100%;
 
-  @media screen and (min-width: var(--mobile)) {
-    max-width: var(--mobile);
+  @media screen and (min-width: 480px) {
+    max-width: 480px;
     // margin: 0 auto;
   }
 
-  @media screen and (min-width: var(--tablet)) {
-    max-width: var(--tablet);
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
     padding-left: 34px;
     padding-right: 34px;
   }
 
-  @media screen and (min-width: var(--desktop)) {
-    max-width: var(--desktop);
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
     padding-left: 115px;
     padding-right: 115px;
   }

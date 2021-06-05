@@ -2,6 +2,22 @@
   width: 100%;
   margin: 0 auto;
   background-color: var(--bg-primary-color);
+
+  @media screen and (min-width: 1280px) {
+    width: 1282px;
+    height: 528px;
+    background-image: url('./../images/desktop/made/made-milk-bg-desk@1x.png');
+    background-repeat: no-repeat;
+
+    @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      .box {
+        background-image: url('./../images/desktop/made/made-milk-bg-desk@2x.png');
+      }
+    }
+  }
 }
 
 .advantages {

@@ -2,10 +2,12 @@
   width: 100%;
   margin: 0 auto;
   background-color: var(--bg-primary-color);
+}
 
+.box {
   @media screen and (min-width: 1280px) {
-    width: 1282px;
-    height: 528px;
+    // width: 1282px;
+    // height: 528px;
     background-image: url('./../images/desktop/made/made-milk-bg-desk@1x.png');
     background-repeat: no-repeat;
 
@@ -15,17 +17,28 @@
       (min-resolution: 2dppx) {
       .box {
         background-image: url('./../images/desktop/made/made-milk-bg-desk@2x.png');
+        background-repeat: no-repeat;
       }
     }
   }
 }
 
 .advantages {
+  width: 100%;
+  //   margin: 0 auto;
   background-color: var(--bg-primary-color);
 }
 
 .about__title {
   margin-bottom: 26px;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 100px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 102px;
+  }
 }
 
 .about__label {
@@ -117,17 +130,36 @@
   display: inline-block;
   width: 100%;
   height: 50px;
+  margin-bottom: 16px;
   background-image: url('./../images/made-icons/icon1@1x.png');
   background-repeat: no-repeat;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 36px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 40px;
+  }
 }
 
+// попробовать сделать переменную  или микси на одинаковые  стили иконок
 .advantages__figures--apples::before {
   content: '';
   display: inline-block;
   width: 100%;
   height: 50px;
+  margin-bottom: 16px;
   background-image: url('./../images/made-icons/icon2@1x.png');
   background-repeat: no-repeat;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 36px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 40px;
+  }
 }
 
 .advantages__figures--heart::before {
@@ -135,8 +167,17 @@
   display: inline-block;
   width: 100%;
   height: 50px;
+  margin-bottom: 40px;
   background-image: url('./../images/made-icons/icon3@1x.png');
   background-repeat: no-repeat;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 36px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 40px;
+  }
 }
 
 .advantages__text {

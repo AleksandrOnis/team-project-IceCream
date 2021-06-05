@@ -1,0 +1,39 @@
+.title {
+  font-family: Titan One;
+  margin-bottom: 30px;  font-size: 34px;
+  line-height: 1.15;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--title-color);  
+  
+  @media screen and (min-width: var(--tablet)) {
+    margin-bottom: 40px;
+    font-size: 48px;
+    line-height: 1.15;
+  }
+
+  @media screen and (min-width: var(--desktop)) {
+    margin-bottom: 50px;    
+    font-size: 58px;
+    line-height: 1.14;
+  }
+}
+
+.title-label {
+  margin-bottom: 15px;  
+  font-family: Titan One;
+  font-size: 18px;
+  line-height: 1.17;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--label-color);  
+  
+  @media screen and (min-width: 768px) {
+    font-size: 26px;
+    line-height: 1.15;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 30px;
+    line-height: 1.13;
+  }
+}

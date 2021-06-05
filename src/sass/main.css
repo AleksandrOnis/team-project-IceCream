@@ -17,6 +17,7 @@ body {
   min-width: 480px;
   font-family: 'DM Sans', sans-serif;
   letter-spacing: 0.04em;
+  color: var(--primary-text-color);
 }
 
 h1,
@@ -183,6 +184,8 @@ img {
 }
 
 :root {
+  --main-font: "DM Sans", sans-serif;
+  --title-font: 'Titan One', cursive;
   --title-color: #d41443;
   --label-color: #ffa5ba;
   --primary-text-color: #000000;

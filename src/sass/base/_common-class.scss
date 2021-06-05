@@ -9,7 +9,8 @@ html {
 }
 
 body {
-  min-width: 480px;
+  min-width: 320px;
+  max-width: 480px;
   font-family: 'DM Sans', sans-serif;
   letter-spacing: 0.04em;
   color: var(--primary-text-color);

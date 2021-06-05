@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./../fonts/dmsans-regular-webfont.woff":[["dmsans-regular-webfont.98a74ad9.woff","GnWE"],"GnWE"],"./../fonts/dmsans-regular-webfont.woff2":[["dmsans-regular-webfont.16a54498.woff2","osf2"],"osf2"],"./../fonts/dmsans-medium-webfont.woff":[["dmsans-medium-webfont.d6f0aa09.woff","IoyZ"],"IoyZ"],"./../fonts/dmsans-medium-webfont.woff2":[["dmsans-medium-webfont.0f989f85.woff2","R7zJ"],"R7zJ"],"./../fonts/dmsans-bold-webfont.woff":[["dmsans-bold-webfont.57a4ed1a.woff","XF4W"],"XF4W"],"./../fonts/dmsans-bold-webfont.woff2":[["dmsans-bold-webfont.d0901315.woff2","IdAY"],"IdAY"],"./../fonts/titanone-regular-webfont.woff":[["titanone-regular-webfont.697df578.woff","eSMH"],"eSMH"],"./../fonts/titanone-regular-webfont.woff2":[["titanone-regular-webfont.2e57b49e.woff2","TyPy"],"TyPy"]}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");
 },{"./sass/main.scss":"clu1"}]},{},["Focm"], null)
-//# sourceMappingURL=/team-project-IceCream/src.91fa29e7.js.map
+//# sourceMappingURL=/team-project-IceCream/src.3cc89c82.js.map

@@ -53,28 +53,32 @@
   }
 }
 .products__item--pink {
-  background-color: #FFB8CA;
+  background-color: #ffb8ca;
 }
 .products__item--crema {
-  background-color: #F0D1A5;
+  background-color: #f0d1a5;
 }
 .products__item--green {
-  background-color: #C2E297;
+  background-color: #c2e297;
 }
 .products__img {
   position: absolute;
   top: -115px;
   left: 50%;
   transform: translateX(-50%);
+
   @media screen and (min-width: 768px) {
     top: -102px;
+    width: 220px;
+    height: 226px;
   }
+
   @media screen and (min-width: 1200px) {
     top: -155px;
   }
 }
 .products__title {
-  font-family: Titan One;
+  font-family: var(--title-font);
   font-size: 20px;
   line-height: 1.15;
   margin-bottom: 29.5px;
@@ -88,6 +92,7 @@
   }
 }
 .products_point {
+  position: relative;
   display: flex;
   margin-bottom: 30px;
   margin-left: auto;
@@ -103,38 +108,26 @@
 .products_point::after {
   content: '';
   position: absolute;
-  left: 128px;
+  left: 10px;
   display: flex;
   width: 6px;
   height: 6px;
   border-radius: 50%;
   background-color: var(--bg-secondary-color);
-  @media screen and (min-width: 768px) {
-    left: 98px;
-  }
-  @media screen and (min-width: 1200px) {
-    left: 139px;
-  }
 }
 .products_point::before {
   content: '';
   position: absolute;
-  right: 128px;
+  right: 10px;
   display: flex;
   width: 6px;
   height: 6px;
   border-radius: 50%;
   background-color: var(--bg-secondary-color);
-  @media screen and (min-width: 768px) {
-    right: 98px;
-  }
-  @media screen and (min-width: 1200px) {
-    right: 139px;
-  }
 }
 .products__description {
   margin-bottom: 30px;
-  font-family: DM Sans;
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -142,15 +135,18 @@
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--inversion-text-color);
+
   @media screen and (min-width: 768px) {
     margin-bottom: 40px;
   }
+
   @media screen and (min-width: 1200px) {
     margin-bottom: 62px;
     font-size: 16px;
     line-height: 1.75;
   }
 }
+
 @media screen and (min-width: 768px) {
   .part-text {
     display: none;

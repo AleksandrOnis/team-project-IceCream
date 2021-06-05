@@ -34,12 +34,50 @@
   line-height: 1.62;
 
   color: var(--secondary-text-color);
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 62px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 45px;
+  }
 }
 
+.about__box {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    margin-bottom: 66px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 39px;
+  }
+}
+
+// стили кнопки убрать когда  добавят  в общие  классы
 .btn {
   color: var(--btn-secondary-color);
   background: var(--btn-primary-color);
+  border: none;
   border-radius: 22px;
+
+  &:hover {
+    color: var(--btn-primary-color);
+    background: var(--btn-secondary-color);
+  }
+}
+
+.advantages__list {
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+}
+
+.advantages__item {
+  @media screen and (min-width: 768px) {
+    flex-basis: calc((100% - (2 * 60px) / 3));
+  }
 }
 
 .advantages__figures {
@@ -54,6 +92,7 @@
 
   color: var(--title-color);
 }
+
 .advantages__text {
   margin-right: 70px;
   margin-bottom: 38px;

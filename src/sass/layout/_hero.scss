@@ -1,0 +1,25 @@
+.hero {
+  background-color: #ffb8ca;
+}
+.hero__container {
+  width: 100%;
+  min-height: 446px;
+}
+
+.hero__title {
+  padding-top: 137px;
+  padding-bottom: 20px;
+  width: 218px;
+  font-family: var(--title-font);
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 1.15;
+  text-transform: uppercase;
+  color: var(--inversion-text-color);
+
+  &--alt {
+    font-size: 48px;
+    line-height: 0.96;
+    color: var(--title-color);
+  }
+}

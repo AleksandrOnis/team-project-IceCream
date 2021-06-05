@@ -1,7 +1,26 @@
-<header>
-    <div>
+<header class="header">
+    <div class="container header__container">
         <a href="/index.html">
             <img src="/images/logo@1x.png" alt="logo">
         </a>
+        <nav></nav>
+        <button class="mobile-menu__btn">
+            <svg class="menu-btn__icon" width="20px" height="12px">
+                <use class="menu-btn__icon-open" href="/images/symbol-defs.svg#icon-burger"></use>
+                <use class="menu-btn__icon-close" href="/images/symbol-defs.svg#icon-close"></use>
+            </svg>
+        </button>
     </div>
 </header>
+<div class="mobile-menu">
+    <div class="container">
+        <button class="btn" type="button">Buy now</button>
+        <ul class="mobile-menu__list list">
+            <li class="mobile-menu__item"><a class="link" href="#">Home</a></li>
+            <li class="mobile-menu__item"><a class="link" href="#">About us</a></li>
+            <li class="mobile-menu__item"><a class="link" href="#">How it’s made?</a></li>
+            <li class="mobile-menu__item"><a class="link" href="#">Our products</a></li>
+            <li class="mobile-menu__item"><a class="link" href="#">Contact</a></li>
+        </ul>
+    </div>
+</div>

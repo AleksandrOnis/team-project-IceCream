@@ -44,27 +44,24 @@
   }
 }
 
-.about__box {
+.box {
   @media screen and (min-width: 768px) {
     display: flex;
-    margin-bottom: 66px;
+    padding-bottom: 66px;
   }
 
   @media screen and (min-width: 1280px) {
-    margin-bottom: 39px;
+    padding-bottom: 39px;
   }
 }
 
-// стили кнопки убрать когда  добавят  в общие  классы
-.btn {
-  color: var(--btn-secondary-color);
-  background: var(--btn-primary-color);
-  border: none;
-  border-radius: 22px;
+.box__item {
+  @media screen and (min-width: 768px) {
+    flex-basis: calc((100% - 17px) / 2);
+  }
 
-  &:hover {
-    color: var(--btn-primary-color);
-    background: var(--btn-secondary-color);
+  @media screen and (min-width: 1280x) {
+    flex-basis: calc((100% - 74px) / 2);
   }
 }
 
@@ -84,7 +81,7 @@
   display: block;
   //   width: 98px;
   margin-bottom: 15px;
-  font-family: Titan One;
+  font-family: var(--title-font);
   font-size: 36px;
   line-height: 1.14;
   letter-spacing: 0.04em;

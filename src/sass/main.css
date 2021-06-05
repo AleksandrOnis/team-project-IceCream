@@ -165,4 +165,45 @@ img {
     padding-bottom: 119px;
   }
 }
+
+.products__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.products__item {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 160px;
+  max-width: 280px;
+  min-height: 485px;
+  background-color: #ffb8ca;
+  border-radius: 24px;
+}
+
+.products__item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.products__title {
+  font-family: Titan One;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--inversion-text-color);
+}
+
+.products__description {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.52;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--inversion-text-color);
+}
 /*# sourceMappingURL=main.css.map */

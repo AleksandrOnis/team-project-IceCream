@@ -1,4 +1,6 @@
 .about {
+  outline: 1px solid red;
+  padding-bottom: 39px;
   width: 100%;
   margin: 0 auto;
   padding-top: 125px;
@@ -18,7 +20,13 @@
     }
   }
 
+  @media screen and (min-width: 768px) {
+    padding-bottom: 66px;
+  }
+
   @media screen and (min-width: 1280px) {
+    padding-bottom: 39px;
+
     background-image: url('./../images/desktop/made/made-milk-bg-desk@1x.png');
     background-repeat: no-repeat;
     background-position: right 0px top 346px;
@@ -104,12 +112,12 @@
 .box {
   @media screen and (min-width: 768px) {
     display: flex;
-    padding-bottom: 66px;
+    // padding-bottom: 66px;
   }
 
-  @media screen and (min-width: 1280px) {
-    padding-bottom: 39px;
-  }
+  //   @media screen and (min-width: 1280px) {
+  //     padding-bottom: 0;
+  //   }
 }
 
 .box__item {

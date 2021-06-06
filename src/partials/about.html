@@ -1,29 +1,106 @@
-<section class="section about">
-  <div class="container">
-    <p class="label about__label">tradition and love</p>
-    <h2 class="title about__title">how it’s made?</h2>
-    <!-- картинка -->
-    <p class="about__text">
-      Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem
-      eget, egestas eros. Maecenas eleifend erat at justo fringilla.
-    </p>
-    <p class="about__text about__text--bottom">
-      Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in
-      imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus.
-      Cras massa nibh, tincidunt. Aliquam erat volutpat. Aenean accumsan.
-    </p>
-    <button type="button" class="btn">Read more</button>
-  </div>
-</section>
-<section class="section advantages">
-  <h2 class="visually-hidden"></h2>
-  <!-- свг -->
-  <span class="advantages__figures">721</span>
-  <p class="advantages__text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
-  <!-- свг -->
-  <span class="advantages__figures">16 kg</span>
-  <p class="advantages__text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
-  <!-- свг -->
-  <span class="advantages__figures">84</span>
-  <p class="advantages__text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
-</section>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="section about">
+      <div class="container">
+        <p class="title-label about__title-label">tradition and love</p>
+        <h2 class="title about__title">how it’s made?</h2>
+        <div class="box about__box">
+          <div class="thumb box__item">
+            <picture>
+              <!-- <source
+                    srcset="
+                      ./images/desktop/what-we-do/box1.webp    1x,
+                      ./images/desktop/what-we-do/box1@2x.webp 2x
+                    "
+                    media="(min-width: 1200px)"
+                    type="image/webp"
+                  /> -->
+
+              <!-- <source
+                srcset="
+                  ./images/mobile/made/made-cow-mob@1x.png 1x,
+                  ./images/mobile/made/made-cow-mob@2x.png 2x
+                "
+                media="(min-width: 1200px)"
+                type="image/png"
+              /> -->
+
+              <!-- <img
+                src="./images/mobile/made/made-cow-mob@1x.png"
+                alt="Нотбук"
+                width="280"
+                height="279"
+              /> -->
+            </picture>
+            <img
+              srcset="
+                ./images/mobile/made/made-cow-mob@1x.png 1x,
+                ./images/mobile/made/made-cow-mob@2x.png 2x
+              "
+              src="./images/mobile/made/made-milk-bg-mob@1x.png"
+              alt="Корова и кувшин  молока"
+              width="280"
+              height="279"
+            />
+          </div>
+          <div class="content-box box__item">
+            <p class="about__text">
+              Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus,
+              faucibus lorem eget, egestas eros. Maecenas eleifend erat at justo fringilla.
+            </p>
+            <p class="about__text about__text--bottom">
+              Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus
+              orci in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a
+              feugiat urna maximus. Cras massa nibh, tincidunt. Aliquam erat volutpat. Aenean
+              accumsan.
+            </p>
+            <button type="button" class="btn about__btn">
+              Read more
+              <svg class="about__icon" width="5" height="5">
+                <use href="./images/symbol-defs.svg#icon-vector"></use>
+              </svg>
+              <!-- <svg>
+                <use href="../images/symbol-defs.svg#icon-vector.svg"></use>
+              </svg> -->
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section advantages">
+      <div class="container">
+        <h2 class="visually-hidden">Advantages</h2>
+        <ul class="advantages__list list">
+          <li class="advantages__item item">
+            <!-- свг -->
+            <span class="advantages__figures advantages__figures--bucket">721</span>
+            <p class="advantages__text">
+              Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
+            </p>
+          </li>
+          <li class="advantages__item item">
+            <!-- свг -->
+            <span class="advantages__figures advantages__figures--apples">16 kg</span>
+            <p class="advantages__text">
+              Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
+            </p>
+          </li>
+          <li class="advantages__item item">
+            <!-- свг -->
+            <span class="advantages__figures advantages__figures--heart">84</span>
+            <p class="advantages__text">
+              Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>

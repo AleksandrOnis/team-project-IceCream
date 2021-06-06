@@ -14,32 +14,34 @@
         <div class="box about__box">
           <div class="thumb box__item">
             <picture>
-              <!-- <source
-                    srcset="
-                      ./images/desktop/what-we-do/box1.webp    1x,
-                      ./images/desktop/what-we-do/box1@2x.webp 2x
-                    "
-                    media="(min-width: 1200px)"
-                    type="image/webp"
-                  /> -->
-
-              <!-- <source
+              <source
+                srcset="
+                  ./images/desktop/made/made-cow-desk@1x.png 1x,
+                  ./images/desktop/made/made-cow-desk@2x.png 2x
+                "
+                media="(min-width: 1200px)"
+                type="image/png"
+              />
+              <source
+                srcset="
+                  ./images/tablet/made/made-cow-tab@1x.png 1x,
+                  ./images/tablet/made/made-cow-tab@2x.png 2x
+                "
+                media="(min-width: 768px)"
+                type="image/png"
+              />
+              <source
                 srcset="
                   ./images/mobile/made/made-cow-mob@1x.png 1x,
                   ./images/mobile/made/made-cow-mob@2x.png 2x
                 "
-                media="(min-width: 1200px)"
+                media="(max-width: 767px)"
                 type="image/png"
-              /> -->
-
-              <!-- <img
-                src="./images/mobile/made/made-cow-mob@1x.png"
-                alt="Нотбук"
-                width="280"
-                height="279"
-              /> -->
+              />
+              <img src="./images/desktop/made/made-cow-desk@1x.png" alt="Cow  and milk" />
             </picture>
-            <img
+
+            <!-- <img
               srcset="
                 ./images/mobile/made/made-cow-mob@1x.png 1x,
                 ./images/mobile/made/made-cow-mob@2x.png 2x
@@ -48,7 +50,7 @@
               alt="Корова и кувшин  молока"
               width="280"
               height="279"
-            />
+            /> -->
           </div>
           <div class="content-box box__item">
             <p class="about__text">
@@ -58,17 +60,15 @@
             <p class="about__text about__text--bottom">
               Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus
               orci in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a
-              feugiat urna maximus. Cras massa nibh, tincidunt. Aliquam erat volutpat. Aenean
-              accumsan.
+              feugiat urna maximus. Cras massa nibh, tincidunt.
+              <p class="about__text about__text--last"> Aliquam erat volutpat. Aenean
+              accumsan.</p>
             </p>
             <button type="button" class="btn about__btn">
               Read more
-              <svg class="about__icon" width="5" height="5">
+              <svg class="about__icon" width="5" height="8">
                 <use href="./images/symbol-defs.svg#icon-vector"></use>
               </svg>
-              <!-- <svg>
-                <use href="../images/symbol-defs.svg#icon-vector.svg"></use>
-              </svg> -->
             </button>
           </div>
         </div>

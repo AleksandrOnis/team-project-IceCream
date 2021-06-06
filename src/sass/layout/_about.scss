@@ -1,5 +1,5 @@
 .about {
-  outline: 1px solid red;
+  //   outline: 1px solid red;
   padding-bottom: 39px;
   width: 100%;
   margin: 0 auto;
@@ -112,12 +112,7 @@
 .box {
   @media screen and (min-width: 768px) {
     display: flex;
-    // padding-bottom: 66px;
   }
-
-  //   @media screen and (min-width: 1280px) {
-  //     padding-bottom: 0;
-  //   }
 }
 
 .box__item {
@@ -262,7 +257,6 @@
 }
 
 .advantages__text {
-  //   margin-bottom: ;
   font-weight: bold;
   font-size: 12px;
   line-height: 1.7;

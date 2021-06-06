@@ -3,13 +3,13 @@
   justify-content: space-between;
   align-items: center;
   background-color: #ffb8ca;
+  padding-top: 6px;
 }
 
 .page-header__nav {
   display: none;
 
   @media screen and (min-width: 768px) {
-    display: block;
   }
 }
 

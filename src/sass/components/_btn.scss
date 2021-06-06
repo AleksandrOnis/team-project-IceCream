@@ -8,7 +8,7 @@
   background: var(--btn-primary-color);
   border: none;
   border-radius: 22px;
-  transition: box-shadow $duration $timing-function;
+  transition: box-shadow var(--duration) var(--timing-function);
 
   &:hover,
   &:focus {

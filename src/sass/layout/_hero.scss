@@ -1,8 +1,19 @@
 .hero {
+  width: 100vw;
+  min-height: 446px;
   background-color: #ffb8ca;
 }
-.hero__container {
-  min-height: 446px;
+
+.hero__flexbox {
+  display: flex;
+}
+
+.hero__flexbox-right {
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
 }
 
 .hero__title {
@@ -15,6 +26,10 @@
   line-height: 1.15;
   text-transform: uppercase;
   color: var(--inversion-text-color);
+
+  @media screen and (min-width: 768px) {
+    padding-top: 15px;
+  }
 
   &--alt {
     font-size: 48px;

@@ -2,12 +2,44 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #ffb8ca;
 }
 
 .page-header__nav {
   display: none;
 
   @media screen and (min-width: 768px) {
+    display: block;
+  }
+}
+
+.header__btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.is-open .header__icon {
+  z-index: 11;
+  position: fixed;
+  right: 28px;
+  top: 22px;
+}
+
+.is-open .header__icon-open {
+  display: none;
+}
+
+.header__icon-close {
+  display: none;
+
+  .is-open & {
     display: block;
   }
 }

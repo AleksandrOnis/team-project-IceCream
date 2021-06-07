@@ -46,7 +46,7 @@
               <p class="about__text about__text--last"> Aliquam erat volutpat. Aenean
               accumsan.</p>
             </p>
-            <button type="button" class="btn about__btn">
+            <button type="button" class="btn about__btn" data-modal-open> 
               Read more
               <svg class="about__icon" width="5" height="8">
                 <use href="./images/symbol-defs.svg#icon-vector"></use>
@@ -84,5 +84,29 @@
         </ul>
       </div>
     </section>
+    <div class="backdrop backdrop--is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal__btn" data-modal-close >
+          <svg class="modal__icon-close" width="14" height="14">
+            <use href="./images/symbol-defs.svg#vector.svg"></use>
+          </svg>
+          </button>
+          <p class="modal__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero amet qui nisi, expedita cum maiores, totam quasi eligendi maxime commodi facere, officia blanditiis. Magni, at adipisci dolores, labore provident et ea vel recusandae corrupti, qui accusantium ab quaerat? Temporibus quasi rerum quisquam dignissimos aperiam, ea nesciunt fugit quos eveniet possimus cupiditate, incidunt at odit quis distinctio optio maxime! Voluptatibus modi eveniet perferendis pariatur esse soluta, excepturi molestiae explicabo similique vel!</p>
+      </div>
+    </div>
   </body>
+
+  <!-- (() => {
+  const refs = {
+    openModalBtn: document.querySelector('[data-modal-open]'),
+    closeModalBtn: document.querySelector('[data-modal-close]'),
+    modal: document.querySelector('[data-modal]'),
+  };
+  refs.openModalBtn.addEventListener('click', toggleModal);
+  refs.closeModalBtn.addEventListener('click', toggleModal);
+  function toggleModal() {
+    document.body.classList.toggle('modal-open');
+    refs.modal.classList.toggle('backdrop--is-hidden');
+  }
+})(); -->
 </html>

@@ -134,11 +134,11 @@
   }
 }
 
-.products_point::after {
+.products_point::after,
+.products_point::before {
   position: absolute;
   content: '';
   display: flex;
-  left: 10px;
 
   width: 6px;
   height: 6px;
@@ -147,17 +147,12 @@
   background-color: var(--bg-secondary-color);
 }
 
+.products_point::after {
+  left: 10px;
+}
+
 .products_point::before {
-  position: absolute;
-  content: '';
-  display: flex;
   right: 10px;
-
-  width: 6px;
-  height: 6px;
-
-  border-radius: 50%;
-  background-color: var(--bg-secondary-color);
 }
 
 .products__description {

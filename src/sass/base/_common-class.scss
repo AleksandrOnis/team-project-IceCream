@@ -6,10 +6,11 @@ html {
 *::after,
 *::before {
   box-sizing: inherit;
-  border: 1px solid red;
 }
 
 body {
+  min-width: 320px;
+  // max-width: 480px;
   font-family: 'DM Sans', sans-serif;
   letter-spacing: 0.04em;
   color: var(--primary-text-color);
@@ -32,22 +33,6 @@ img {
   height: auto;
 }
 
-ul {
-  padding-left: 0;
-  margin: 0;
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-
-  &:hover,
-  &:focus {
-    color: var(--title-color);
-  }
-}
-
 /* Общие классы */
 .list {
   padding-left: 0;
@@ -60,11 +45,6 @@ a {
   text-decoration: none;
   color: inherit;
   transition: color var(--duration) var(--timing-function);
-
-  &:hover,
-  &:focus {
-    color: var(--title-color);
-  }
 }
 
 .icon {

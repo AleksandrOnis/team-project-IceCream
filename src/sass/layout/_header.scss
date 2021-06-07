@@ -13,8 +13,26 @@
 .page-header__nav {
   display: none;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1280px) {
+    display: flex;
   }
+}
+
+.page-header__menu {
+  display: flex;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.28;
+  color: var(--inversion-text-color);
+}
+
+.page-header__item:hover,
+.page-header__item:focus {
+  color: var(--title-color);
+}
+
+.page-header__item:not(:last-child) {
+  margin-right: 35px;
 }
 
 .header__burger {
@@ -28,7 +46,7 @@
     margin-right: 30px;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1280px) {
     display: none;
   }
 }
@@ -38,6 +56,11 @@
   position: fixed;
   right: 28px;
   top: 22px;
+
+  @media screen and (min-width: 768px) {
+    left: 206px;
+    top: 22px;
+  }
 }
 
 .is-open .header__icon-open {

@@ -1,10 +1,10 @@
 .footer {
   background-color: var(--bg-primary-color);
   background-image: linear-gradient(
-    var(--bg-primary-color) 250px,
-    #e1e1e1 250px,
-    #e1e1e1 251px,
-    var(--bg-primary-color) 251px
+    var(--bg-primary-color) 307px,
+    #e1e1e1 307px,
+    #e1e1e1 308px,
+    var(--bg-primary-color) 92px
   );
 }
 
@@ -59,7 +59,7 @@
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  background-color: #fea5bb;
+  background-color: var(--label-color);
   cursor: pointer;
 }
 

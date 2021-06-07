@@ -3,6 +3,7 @@
     height: 427px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     padding-top: 43px;
     padding-left: 20px;
     background-color: #FFFFFF;
@@ -24,9 +25,39 @@
     color: #FFFFFF;
 }
 
+.contact__place-foodtruk{
+    display: flex;
+    width: 80px;
+    height: 16px;
+    background: #C2E297;
+    border-radius: 4px;     
+    font-size: 12px;
+    line-height: 1.86;    
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
 .contacts__file{
     margin-top: 25px;
     margin-bottom: 25px;
+    &::after{
+        content: "";
+        display: block;
+        width: 179px;
+        height: 1px;
+        background-color:#E1E1E1;
+        margin-top: 25px;
+    } 
+        
+}
+
+.contacts__worktime{
+    margin-bottom: 10px;
+    &:last-child {
+        margin-bottom: 0px;
+    }  
 }
 
 .contacts__title{
@@ -37,10 +68,36 @@
     padding-bottom: 10px;
 }
 
+.contacts__title--day{
+    font-size: 12px;
+    line-height: 1.86;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
 .contacts__page{
     font-weight: 500;
     font-size: 12px;
     line-height: 1.5;
     color: #907E82;
+}
+
+.contacts__page--time{
+    color: #FFA5BA;
+}
+
+.contacts__link{
+    font-size: 12px;
+    line-height: 1.5;     
+    color: #907E82;
+    &::before{
+        content: "";
+        display: block;
+        width: 179px;
+        height: 1px;
+        background-color:#E1E1E1;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
 }
 

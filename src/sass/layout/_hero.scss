@@ -1,6 +1,35 @@
 .hero {
   width: 100vw;
+  min-height: 446px;
   background-color: #ffb8ca;
+  background-image: url('/images/mobile/hero/hero-ice-cream-mob@1x.png'),
+    url('/images/ellipse-mobi.svg');
+  background-position: top 36px right 32px, top 27px right;
+  background-repeat: no-repeat;
+
+  @media screen and (min-width: 768px) {
+    min-height: 312px;
+    background-image: url('/images/tablet/hero/hero-ice-cream-tab@1x.png'),
+      url('/images/tablet/hero/hero-girl-tab@1x.png'), url('/images/ellipse-tablet.svg'),
+      url('/images/tablet/hero/hero-milk-tab@1x.png');
+    background-position: top 12px right 247px, bottom 0 right 54px, bottom 25px right 150px,
+      left 34px bottom 28px;
+    background-repeat: no-repeat;
+  }
+
+  @media screen and (min-width: 1280px) {
+    min-height: 578px;
+    background-image: url('/images/desktop/hero/hero-ice-cream-desk@1x.png'),
+      url('/images/desktop/hero/hero-girl-desk@1x.png'), url('/images/ellipse-desktop.svg'),
+      url('/images/desktop/hero/hero-milk-desk@1x.png');
+    background-position: top 20px right 450px, bottom 0 right 109px, bottom 30px right 267px,
+      left 77px bottom 45px;
+    background-repeat: no-repeat;
+  }
+}
+
+.hero__container {
+  position: relative;
 }
 
 .hero__flexbox {
@@ -22,7 +51,9 @@
     display: block;
   }
 }
-
+.hero__flexbox-left {
+  z-index: 2;
+}
 .hero__title {
   padding-top: 137px;
   padding-bottom: 20px;
@@ -60,6 +91,10 @@
   font-size: 28px;
   line-height: 1.14;
   color: var(--title-color);
+
+  background-image: url('/images/ellipse.svg');
+  background-position: top 0 right 0;
+  background-repeat: no-repeat;
 }
 
 .hero__item:not(:last-child) {

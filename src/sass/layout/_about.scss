@@ -24,7 +24,7 @@
   }
 
   @media screen and (min-width: 1280px) {
-    padding-bottom: 39px;
+    padding-bottom: 146px;
 
     background-image: url('./../images/desktop/made/made-milk-bg-desk@1x.png');
     background-repeat: no-repeat;
@@ -141,12 +141,22 @@
 }
 
 .thumb {
+  position: relative;
   margin-bottom: 46px;
 
   @media screen and (min-width: 768px) {
     margin-bottom: 0;
   }
 }
+
+.thumb__box {
+  outline: 1px solid red;
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    top: -50px;
+  }
+}
+
 .about__btn {
   padding-left: 37px;
   padding-right: 37px;

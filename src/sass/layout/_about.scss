@@ -287,11 +287,11 @@
   // добавить переход еще  какой-то
 }
 
-// .backdrop--is-hidden {
-//   visibility: hidden;
-//   pointer-events: none;
-//   opacity: 0;
-// }
+.backdrop--is-hidden {
+  visibility: hidden;
+  pointer-events: none;
+  opacity: 0;
+}
 
 .modal {
   position: absolute;

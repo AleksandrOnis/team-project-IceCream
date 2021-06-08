@@ -1,45 +1,105 @@
 .footer {
+  padding-bottom: 25px;
   background-color: var(--bg-primary-color);
   background-image: linear-gradient(
-    var(--bg-primary-color) 307px,
-    #e1e1e1 307px,
-    #e1e1e1 308px,
-    var(--bg-primary-color) 92px
+    var(--bg-primary-color) 310px,
+    #e1e1e1 311px,
+    #e1e1e1 312px,
+    var(--bg-primary-color) 60px
   );
+
+  @media screen and (min-width: 768px) {
+    background-color: var(--bg-primary-color);
+    background-image: linear-gradient(
+      var(--bg-primary-color) 291px,
+      #e1e1e1 291px,
+      #e1e1e1 292px,
+      var(--bg-primary-color) 62px
+    );
+  }
+
+  @media screen and (min-width: 1200px) {
+    background-color: var(--bg-primary-color);
+    background-image: linear-gradient(
+      var(--bg-primary-color) 201px,
+      #e1e1e1 201px,
+      #e1e1e1 202px,
+      var(--bg-primary-color) 55px
+    );
+  }
 }
 
 // .footer-container {
 // }
 
+.box-position {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    max-height: 183px;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 120px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-height: 170px;
+    margin-bottom: 50px;
+  }
+}
+
 .footer-box {
   max-width: 234px;
   max-height: 135px;
-  margin-bottom: 45px;
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: 45px;
+  }
+
+  @media screen and (min-width: 768px) {
+    max-width: 340px;
+    max-height: 183px;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 474px;
+    max-height: 115px;
+  }
 }
 
-.footer__text {
-  display: block;
-
-  font-family: titan one;
+.footer__title-label {
+  text-align: left;
+  margin-bottom: 15px;
+  font-family: Titan One;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   text-transform: uppercase;
   color: var(--label-color);
 
-  margin-bottom: 17px;
+  @media screen and (min-width: 768px) {
+    font-size: 26px;
+    line-height: 1.15;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 30px;
+    line-height: 1.13;
+  }
 }
 
 .footer__title {
-  font-family: titan one;
-  font-size: 34px;
-  line-height: 1.14;
   letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--title-color);
 }
 
 .footer__social-link {
   margin-bottom: 45px;
+
+  @media screen and (min-width: 768px) {
+    // display: flex;
+    // align-items: flex-start;
+  }
 }
 
 .footer__icons {
@@ -93,5 +153,10 @@
   font-size: 14px;
   line-height: 1.5;
   color: var(--secondary-text-color);
-  margin-bottom: 25px;
+
+  @media screen and (max-width: 767px) {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 150px;
+  }
 }

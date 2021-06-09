@@ -1,15 +1,19 @@
 .gallery {
   padding-bottom: 80px;
   background-image: linear-gradient(
-    var(--bg-primary-color) 36%, var(--bg-secondary-color) 36%);
-  height: 122px;
+    var(--bg-primary-color) 24%, var(--bg-secondary-color) 24%);
+  min-height: 122px;
 
   @media screen and (min-width: 768px) and (max-width: (1280px - 0.02px)) {
-    height: 264px;
+    background-image: linear-gradient(
+      var(--bg-primary-color) 30%, var(--bg-secondary-color) 30%);
+    min-height: 264px;
   }
 
   @media screen and (min-width: 1280px) {
-    height: 430px;
+  background-image: linear-gradient(
+    var(--bg-primary-color) 33%, var(--bg-secondary-color) 33%);
+    min-height: 430px;
   }
 }
 

@@ -14,26 +14,37 @@
         <div class="box about__box">
           <div class="thumb box__item">
             <div class="thumb__box">
-            <picture>
-              <source srcset="./images/desktop/made/made-cow-desk@1x.png 1x, ./images/desktop/made/made-cow-desk@2x.png 2x" media="(min-width: 1280px" type="image/png">
-              <source
-                srcset="
-                  ./images/tablet/made/made-cow-tab@1x.png 1x,
-                  ./images/tablet/made/made-cow-tab@2x.png 2x
-                "
-                media="(min-width: 768px)"
-                type="image/png"
-              />
-              <source
-                srcset="
-                  ./images/mobile/made/made-cow-mob@1x.png 1x,
-                  ./images/mobile/made/made-cow-mob@2x.png 2x
-                "
-                media="(max-width: 767px)"
-                type="image/png"
-              />
-              <img src="./images/desktop/made/made-cow-desk@1x.png" alt="Cow  and milk" width="516" />
-            </picture>
+              <picture>
+                <source
+                  srcset="
+                    ./images/desktop/made/made-cow-desk@1x.png 1x,
+                    ./images/desktop/made/made-cow-desk@2x.png 2x
+                  "
+                  media="(min-width: 1280px)"
+                  type="image/png"
+                />
+                <source
+                  srcset="
+                    ./images/tablet/made/made-cow-tab@1x.png 1x,
+                    ./images/tablet/made/made-cow-tab@2x.png 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/png"
+                />
+                <source
+                  srcset="
+                    ./images/mobile/made/made-cow-mob@1x.png 1x,
+                    ./images/mobile/made/made-cow-mob@2x.png 2x
+                  "
+                  media="(max-width: 767px)"
+                  type="image/png"
+                />
+                <img
+                  src="./images/desktop/made/made-cow-desk@1x.png"
+                  alt="Cow  and milk"
+                  width="516"
+                />
+              </picture>
             </div>
           </div>
           <div class="content-box box__item">
@@ -45,10 +56,10 @@
               Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus
               orci in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a
               feugiat urna maximus. Cras massa nibh, tincidunt.
-              <p class="about__text about__text--last"> Aliquam erat volutpat. Aenean
-              accumsan.</p>
             </p>
-            <button type="button" class="btn about__btn" data-modal-open> 
+
+            <p class="about__text about__text--last">Aliquam erat volutpat. Aenean accumsan.</p>
+            <button type="button" class="btn about__btn" data-modal-open>
               Read more
               <svg class="about__icon" width="5" height="8">
                 <use href="./images/symbol-defs.svg#icon-vector"></use>
@@ -88,12 +99,20 @@
     </section>
     <div class="backdrop backdrop--is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="modal__btn" data-modal-close >
+        <button type="button" class="modal__btn" data-modal-close>
           <svg class="modal__icon-close" width="14" height="14">
             <use href="./images/symbol-defs.svg#vector.svg"></use>
           </svg>
-          </button>
-          <p class="modal__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero amet qui nisi, expedita cum maiores, totam quasi eligendi maxime commodi facere, officia blanditiis. Magni, at adipisci dolores, labore provident et ea vel recusandae corrupti, qui accusantium ab quaerat? Temporibus quasi rerum quisquam dignissimos aperiam, ea nesciunt fugit quos eveniet possimus cupiditate, incidunt at odit quis distinctio optio maxime! Voluptatibus modi eveniet perferendis pariatur esse soluta, excepturi molestiae explicabo similique vel!</p>
+        </button>
+        <p class="modal__text">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero amet qui nisi, expedita
+          cum maiores, totam quasi eligendi maxime commodi facere, officia blanditiis. Magni, at
+          adipisci dolores, labore provident et ea vel recusandae corrupti, qui accusantium ab
+          quaerat? Temporibus quasi rerum quisquam dignissimos aperiam, ea nesciunt fugit quos
+          eveniet possimus cupiditate, incidunt at odit quis distinctio optio maxime! Voluptatibus
+          modi eveniet perferendis pariatur esse soluta, excepturi molestiae explicabo similique
+          vel!
+        </p>
       </div>
     </div>
   </body>

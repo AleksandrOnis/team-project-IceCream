@@ -1,37 +1,13 @@
-.contacts{
-    background-image: linear-gradient(
-     var(--bg-secondary-color) 100px, var(--bg-primary-color) 100px);
-    @media screen and (min-width: 1280px){
-        // padding-top: 125px;
-        padding-bottom: 84px;
-    
-    }
-}
-// .container{
-//         margin-left: auto;
-//         margin-right: auto;
-//         padding-left: 20px;
-//         padding-right: 20px;
-//         width: 100%;
-//         @media screen and(min-width: 480px){
-//             max-width: 480px;
-//         }
-//         @media screen and(min-width: 768px){
-//             max-width: 768px;
-//             padding-left: 34px;
-//             padding-right: 34px;
-//             }
-//         @media screen and(min-width: 1280px){
-//             max-width: 1280px;
-//             padding-left: 115px;
-//             padding-right: 115px;
-//         }
-//     }    
-
-
-.contacts {    
-    background-color: #FFF5F6;
-}
+    .contacts {
+        background-image: linear-gradient(var(--bg-secondary-color) 100px, var(--bg-primary-color) 100px);
+        @media screen and (min-width: 1280px) {
+          padding-bottom: 84px;
+          background-image: url(../images/desktop/shops/shops-bg-desk@1x.png),
+            linear-gradient(var(--bg-secondary-color) 100px, var(--bg-primary-color) 100px);
+          background-repeat: no-repeat;
+          background-position-y: 20%;
+        }
+      }
 
 .contacts__list {
     display: block;

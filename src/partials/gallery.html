@@ -1,3 +1,28 @@
-<section>
-    
+<section class="gallery">
+  <div class="gallery__container container"> 
+    <h2 class="visually-hidden">gallery</h2>
+    <picture>
+        <source
+          srcset="./images/mobile/collage-mob@1x.jpg 1x, ./images/mobile/collage-mob@2x.jpg 2x"
+          media="(max-width: (768px - 0.02px))"
+          type="image/jpg"
+        />
+        <source
+          srcset="./images/tablet/collage-tab@1x.jpg 1x, ./images/tablet/collage-tab@2x.jpg 2x"
+          media="(min-width: 768px)"
+          type="image/jpg"
+        />       
+        <source
+          srcset="./images/desktop/collage-desk@1x.jpg 1x, ./images/desktop/collage-desk@2x.jpg 2x"
+          media="(min-width: 1280px)"
+          type="image/jpg"
+        />
+        <img class="gallery__collage"
+          src="./images/mobile/collage-mob@1x.jpg"
+          alt="Коллаж с фотографиями людей с мороженым"
+          width="320"
+          height="122"
+        />
+    </picture>
+  </div>
 </section>

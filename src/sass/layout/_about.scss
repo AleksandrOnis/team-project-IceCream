@@ -62,9 +62,6 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 1.62;
-  letter-spacing: 0.04em;
-
-  color: var(--primary-text-color);
 
   @media screen and (min-width: 768px) {
     font-size: 14px;
@@ -83,15 +80,14 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 1.62;
-  letter-spacing: 0.04em;
 
   color: var(--secondary-text-color);
 
   @media screen and (min-width: 768px) {
     font-size: 14px;
     line-height: 1.76;
-    letter-spacing: 0.04em;
   }
+
   @media screen and (min-width: 1280px) {
     font-size: 14px;
     line-height: 1.94;
@@ -115,7 +111,6 @@
 }
 
 .box__item {
-  //   outline: 1px solid red;
   @media screen and (min-width: 768px) {
     flex-basis: calc((100% - 17px) / 2);
   }
@@ -150,7 +145,6 @@
 }
 
 .thumb__box {
-  outline: 1px solid red;
   @media screen and (min-width: 768px) {
     position: absolute;
     top: -50px;
@@ -190,6 +184,7 @@
     }
   }
 }
+
 .advantages__item:not(:last-child) {
   margin-bottom: 38px;
 
@@ -204,7 +199,6 @@
   font-family: var(--title-font);
   font-size: 36px;
   line-height: 1.14;
-  letter-spacing: 0.04em;
   text-transform: uppercase;
 
   color: var(--title-color);
@@ -269,8 +263,6 @@
   font-weight: bold;
   font-size: 12px;
   line-height: 1.7;
-
-  color: var(--primary-text-color);
 
   @media screen and (min-width: 768px) {
     font-size: 14px;

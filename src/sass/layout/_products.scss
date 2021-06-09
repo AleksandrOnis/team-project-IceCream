@@ -109,25 +109,21 @@
     margin-bottom: 32px;
   }
 }
-.products_point::after {
+.products_point::after, .products_point::before {
   content: '';
   position: absolute;
-  left: 10px;
   display: flex;
   width: 6px;
   height: 6px;
   border-radius: 50%;
   background-color: var(--bg-secondary-color);
 }
+
+.products_point::after {
+  left: 10px;
+}
 .products_point::before {
-  content: '';
-  position: absolute;
   right: 10px;
-  display: flex;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background-color: var(--bg-secondary-color);
 }
 .products__description {
   margin-bottom: 30px;

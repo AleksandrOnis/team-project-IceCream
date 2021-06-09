@@ -1,12 +1,12 @@
-html {
-  box-sizing: border-box;
-}
+// html {
+//   box-sizing: border-box;
+// }
 
-*,
-*::after,
-*::before {
-  box-sizing: inherit;
-}
+// *,
+// *::after,
+// *::before {
+//   box-sizing: inherit;
+// }
 
 body {
   min-width: 320px;
@@ -29,8 +29,8 @@ p {
 
 img {
   display: block;
-  max-width: 100%;
-  height: auto;
+  // max-width: 100%;
+  // height: auto;
 }
 
 /* Общие классы */

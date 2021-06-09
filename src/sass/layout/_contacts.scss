@@ -1,6 +1,8 @@
 .contacts{
+    background-image: linear-gradient(
+     var(--bg-secondary-color) 100px, var(--bg-primary-color) 100px);
     @media screen and (min-width: 1280px){
-        padding-top: 125px;
+        // padding-top: 125px;
         padding-bottom: 84px;
     
     }
@@ -38,7 +40,7 @@
     width: 100%;    
     margin-left: auto;
     margin-right: auto;
-    padding-top: 84px;
+    // padding-top: 84px;
 
     @media screen and(min-width: 768px)
     {
@@ -253,5 +255,10 @@
         width: 198px;
     }
     
+}
+
+.contacts__locations{
+    
+    margin-left: 15px;
 }
 

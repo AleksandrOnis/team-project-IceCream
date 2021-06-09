@@ -1,0 +1,19 @@
+.gallery {
+  background-image: linear-gradient(
+    var(--bg-primary-color) 36%, var(--bg-secondary-color) 36%);
+  height: 122px;
+
+  @media screen and (min-width: 768px) and (max-width: (1280px - 0.02px)) {
+    height: 264px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    height: 430px;
+  }
+}
+
+.gallery__collage {
+  height: 100%;
+  width: auto;
+  margin: 0 auto;
+}

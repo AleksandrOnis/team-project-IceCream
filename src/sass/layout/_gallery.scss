@@ -1,50 +1,17 @@
 .gallery {
   background-image: linear-gradient(
     var(--bg-primary-color) 41%, var(--bg-secondary-color) 41%);
-  // background-position:center;
-  //       // url('../images/mobile/collage-mob@1x.jpg');
-  // background-size: contain;
-  // background-repeat: no-repeat;
-  min-height: 122px;
-
-  @media screen and (max-width: (768px - 0.02px)) {
-  //   background-image: linear-gradient(
-  //       var(--bg-primary-color) 250px  var(--bg-primary-color) 250px);
-  //       // url('../images/mobile/collage-mob@1x.jpg');
-  //   // @media (min-device-pixel-ratio: 2),
-  //   // (min-resolution: 192dpi),
-  //   // (min-resolution: 2dppx) {
-  //   //   background-image: url('../images/mobile/collage-mob@2x.jpg');
-  //   // }
-  }
+  height: 122px;
 
   @media screen and (min-width: 768px) and (max-width: (1280px - 0.02px)) {
-  //   background-image: url('../images/tablet/collage-tab@1x.jpg');
-    min-height: 265px;
-    margin-bottom: 120px;
-
-  //   @media (min-device-pixel-ratio: 2),
-  //   (min-resolution: 192dpi),
-  //   (min-resolution: 2dppx) {
-  //     background-image: url('../images/tablet/collage-tab@2x.jpg');
-  // }    
+    height: 264px;
   }
 
   @media screen and (min-width: 1280px) {
-  //   background-image: url('../images/desktop/collage-desk@1x.jpg');
-    min-height: 430px;
-    margin-bottom: 125px;
-
-  //   @media (min-device-pixel-ratio: 2),
-  //   (min-resolution: 192dpi),
-  //   (min-resolution: 2dppx) {
-  //     background-image: url('../images/desktop/collage-desk@2x.jpg');
-  // }
+    height: 430px;
   }
 }
-
 
 .gallery__collage {
   margin: 0 auto;
 }
-

@@ -12,7 +12,6 @@
   @media screen and (max-width: 767px) {
     background-image: url('./../images/mobile/made/made-milk-bg-mob@1x.png');
 
-
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url('./../images/mobile/made/made-milk-bg-mob@2x.png');
     }
@@ -27,9 +26,17 @@
 
     background-image: url('./../images/desktop/made/made-milk-bg-desk@1x.png');
 
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+    background-size: contain;
+    background-size: 100vw auto;
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url('./../images/desktop/made/made-milk-bg-desk@2x.png');
+      background-repeat: no-repeat;
+      background-position-y: 100%;
+      background-size: contain;
+      background-size: 100vw auto;
     }
   }
 }

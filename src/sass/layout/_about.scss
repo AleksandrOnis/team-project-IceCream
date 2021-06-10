@@ -1,4 +1,5 @@
 .about {
+  // max-width: 1600px;
   padding-bottom: 39px;
   width: 100%;
   margin: 0 auto;
@@ -28,13 +29,13 @@
 
     background-image: url('./../images/desktop/made/made-milk-bg-desk@1x.png');
     background-repeat: no-repeat;
-    background-position: right 0px top 346px;
+    background-position: 0% 60%;
     background-size: contain;
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url('./../images/desktop/made/made-milk-bg-desk@2x.png');
       background-repeat: no-repeat;
-      background-position: right 0px top 346px;
+      background-position: 0% 100%;
       background-size: contain;
     }
   }
@@ -116,7 +117,6 @@
   }
 
   @media screen and (min-width: 1280px) {
-    flex-basis: calc((100% - 60px) / 2);
   }
 }
 
@@ -130,8 +130,9 @@
   }
 
   @media screen and (min-width: 1280px) {
-    margin-left: 60px;
+    max-width: 465px;
     margin-right: 0;
+    margin-left: 70px;
   }
 }
 
@@ -156,6 +157,11 @@
   padding-right: 37px;
   height: 44px;
   text-align: center;
+
+  &:hover,
+  &:focus {
+    background-color: var(--btn-accent-color);
+  }
 }
 
 .about__icon {
@@ -279,7 +285,7 @@
   }
 
   @media screen and (min-width: 1280px) {
-    font-size: 16x;
+    font-size: 16px;
     line-height: 1.76;
   }
 }

@@ -46,6 +46,7 @@
     @media screen and(min-width: 1280px) {
         flex-basis: calc((100% - 30px * 2) / 3);
         height: 572px;
+        padding: 51px 40px 61px 43px;
         
         
     }
@@ -55,7 +56,8 @@
 .contacts__place{
     display: flex;
     width: 80px;
-    height: 16px;
+    height: 12px;
+    padding: 5px 10px;
     background: var(--contacts__place-color);
     border-radius: 4px;     
     font-size: 12px;
@@ -63,19 +65,32 @@
     align-items: center;
     justify-content: center;    
     color: var(--inversion-text-color);
+    @media screen and(min-width: 768px)  {
+        font-weight: 500;
+        font-size: 16px;
+        width: 73px;
+        height: 28px;   
+    }
 }
 
 .contacts__place-foodtruk{
     display: flex;
-    width: 80px;
+    width: 138px;
     height: 16px;
+    padding: 10px 10px;
     background: var(--contacts__place-foodtruk-color);
     border-radius: 4px;     
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1.86;    
     align-items: center;
     justify-content: center;    
     color: var(--inversion-text-color);
+    @media screen and(min-width: 768px)  {
+        font-weight: 500;
+        font-size: 16px;
+        width: 138px;
+        height: 28px;   
+    }
 }
 
 .contacts__file{
@@ -94,11 +109,11 @@
 
 .worktime{
         @media screen and(min-width: 768px) and(max-width:1279px) {
-        margin-top: 60px;
-        margin-bottom: 60px;
+        margin-top: 30px;
+        margin-bottom: 30px;
         }
         @media screen and(min-width: 1280px){
-            margin-top: 64px;
+            margin-top: 32px;
             margin-bottom: 64px;
             }
     }
@@ -114,12 +129,23 @@
     line-height: 1.86;    
     color: var(--primary-text-color);
     padding-bottom: 10px;
+    @media screen and(min-width: 768px)  {
+        font-weight: 500;
+        font-size: 16px;
+           
+    }
+    
 }
 
 .contacts__title--day{
     font-size: 12px;
     line-height: 1.86;    
     color: var(--primary-text-color);
+    @media screen and(min-width: 768px)  {
+        font-weight: 500;
+        font-size: 16px;
+           
+    }
 }
 
 .contacts__page{
@@ -127,10 +153,20 @@
     font-size: 12px;
     line-height: 1.5;
     color: var(--secondary-text-color);
+    @media screen and(min-width: 768px)  {
+        font-weight: 500;
+        font-size: 16px;
+           
+    }
 }
 
 .contacts__page--time{
     color: var(--label-color);
+    @media screen and(min-width: 768px)  {
+        font-weight: 500;
+        font-size: 16px;
+           
+    }
 }
 
 .contacts__link{
@@ -147,8 +183,26 @@
         background-color: var(--befor__after-color);
         margin-bottom: 25px;
         margin-top: 25px;
+        @media screen and(min-width: 768px)  {
+            margin-top: 0px;           
+        }
     }
 }
+
+.link__tel{
+    @media screen and(min-width: 768px)  {
+        font-weight: 500;
+        font-size: 16px;           
+    }
+}
+
+.link__mail{
+    @media screen and(min-width: 768px)  {
+        font-weight: 500;
+        font-size: 16px;           
+    }
+}
+
 
 .contacts__button{
     margin-top: 54px;    

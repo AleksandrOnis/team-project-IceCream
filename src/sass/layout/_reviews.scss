@@ -149,14 +149,25 @@
 }
 
 .reviews__btn {
-  padding: 0 4px;
+  
+  padding: 4px 4px 0 4px;
   cursor: pointer;
   border: none;
   background-color: transparent;
-
+  
   &:hover,
   &:focus {
     box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 8%),
     0px 2px 2px rgb(0 0 0 / 12%);
   }
 }
+
+// .reviews__btn-icon {
+//   border-radius: 50%;
+ 
+//   .reviews__btn:hover &, 
+//   .reviews__btn:focus & {
+//     box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 8%),
+//     0px 2px 2px rgb(0 0 0 / 12%);
+//   }
+// }

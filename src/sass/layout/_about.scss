@@ -204,6 +204,13 @@
   text-transform: uppercase;
 
   color: var(--title-color);
+  @media screen and (min-width: 768px) {
+    font-size: 48px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 58px;
+  }
 }
 
 .advantages__figures--bucket::before {
@@ -272,7 +279,7 @@
   }
 
   @media screen and (min-width: 1280px) {
-    font-size: 126x;
+    font-size: 16x;
     line-height: 1.76;
   }
 }

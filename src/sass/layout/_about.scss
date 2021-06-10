@@ -1,22 +1,20 @@
 .about {
+  // max-width: 1600px;
   padding-bottom: 39px;
   width: 100%;
   margin: 0 auto;
   padding-top: 125px;
-  background-color: var(--bg-primary-color);
+  background-position: right 0px top 50%;
+  background-repeat: no-repeat;
   background-size: 100vw auto;
+  background-color: var(--bg-primary-color);
 
   @media screen and (max-width: 767px) {
     background-image: url('./../images/mobile/made/made-milk-bg-mob@1x.png');
-    background-repeat: no-repeat;
-    background-position: right 0px bottom 90px;
-    background-size: contain;
+
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url('./../images/mobile/made/made-milk-bg-mob@2x.png');
-      background-repeat: no-repeat;
-      background-position: right 0px bottom 90px;
-      background-size: contain;
     }
   }
 
@@ -28,15 +26,10 @@
     padding-bottom: 146px;
 
     background-image: url('./../images/desktop/made/made-milk-bg-desk@1x.png');
-    background-repeat: no-repeat;
-    background-position: 0% 100%;
-    background-size: 100vw auto;
+
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url('./../images/desktop/made/made-milk-bg-desk@2x.png');
-      background-repeat: no-repeat;
-      background-position: 0% 100%;
-      background-size: 100vw auto;
     }
   }
 }
@@ -117,7 +110,6 @@
   }
 
   @media screen and (min-width: 1280px) {
-    flex-basis: calc((100% - 60px) / 2);
   }
 }
 
@@ -211,7 +203,6 @@
   text-transform: uppercase;
 
   color: var(--title-color);
-
   @media screen and (min-width: 768px) {
     font-size: 48px;
   }

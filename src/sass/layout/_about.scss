@@ -28,13 +28,13 @@
 
     background-image: url('./../images/desktop/made/made-milk-bg-desk@1x.png');
     background-repeat: no-repeat;
-    background-position: right 0px top 346px;
+    background-position: 0% 100%;
     background-size: contain;
 
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url('./../images/desktop/made/made-milk-bg-desk@2x.png');
       background-repeat: no-repeat;
-      background-position: right 0px top 346px;
+      background-position: 0% 100%;
       background-size: contain;
     }
   }
@@ -130,8 +130,9 @@
   }
 
   @media screen and (min-width: 1280px) {
-    margin-left: 60px;
+    max-width: 465px;
     margin-right: 0;
+    margin-left: 70px;
   }
 }
 
@@ -156,6 +157,11 @@
   padding-right: 37px;
   height: 44px;
   text-align: center;
+
+  &:hover,
+  &:focus {
+    background-color: var(--btn-accent-color);
+  }
 }
 
 .about__icon {
@@ -204,6 +210,14 @@
   text-transform: uppercase;
 
   color: var(--title-color);
+
+  @media screen and (min-width: 768px) {
+    font-size: 48px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 58px;
+  }
 }
 
 .advantages__figures--bucket::before {
@@ -272,7 +286,7 @@
   }
 
   @media screen and (min-width: 1280px) {
-    font-size: 126x;
+    font-size: 16px;
     line-height: 1.76;
   }
 }

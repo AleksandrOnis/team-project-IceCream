@@ -87,25 +87,10 @@
   width: 160px;
   height: 44px;
   border: none;
-  border-radius: 22px;
   cursor: pointer;
-
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.31;
-
-  color: var(--title-color);
-  background-color: var(--btn-primary-color);
 
   @media screen and (min-width: 768px) {
     display: flex;
-  }
-
-  &:hover,
-  &:focus {
-    box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 8%),
-      0px 2px 2px rgb(0 0 0 / 12%);
   }
 }
 

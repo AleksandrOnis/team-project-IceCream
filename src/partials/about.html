@@ -1,107 +1,88 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <section class="section about">
-      <div class="container">
-        <p class="title-label about__title-label">tradition and love</p>
-        <h2 class="title about__title">how it’s made?</h2>
-        <div class="box about__box">
-          <div class="thumb box__item">
-            <div class="thumb__box">
-              <picture>
-                <source
-                  srcset="
-                    ./images/desktop/made/made-cow-desk@1x.png 1x,
-                    ./images/desktop/made/made-cow-desk@2x.png 2x
-                  "
-                  media="(min-width: 1280px)"
-                  type="image/png"
-                />
-                <source
-                  srcset="
-                    ./images/tablet/made/made-cow-tab@1x.png 1x,
-                    ./images/tablet/made/made-cow-tab@2x.png 2x
-                  "
-                  media="(min-width: 768px)"
-                  type="image/png"
-                />
-                <source
-                  srcset="
-                    ./images/mobile/made/made-cow-mob@1x.png 1x,
-                    ./images/mobile/made/made-cow-mob@2x.png 2x
-                  "
-                  media="(max-width: 767px)"
-                  type="image/png"
-                />
-                <img
-                  src="./images/desktop/made/made-cow-desk@1x.png"
-                  alt="Cow  and milk"
-                  width="516"
-                />
-              </picture>
-            </div>
-          </div>
-          <div class="content-box box__item">
-            <p class="about__text">
-              Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus,
-              faucibus lorem eget, egestas eros. Maecenas eleifend erat at justo fringilla.
-            </p>
-            <p class="about__text about__text--bottom">
-              Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus
-              orci in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a
-              feugiat urna maximus. Cras massa nibh, tincidunt.
-            </p>
-
-            <p class="about__text about__text--last">Aliquam erat volutpat. Aenean accumsan.</p>
-            <button type="button" class="btn about__btn" data-modal-open>
-              Read more
-              <svg class="about__icon" width="5" height="8">
-                <use href="./images/symbol-defs.svg#icon-vector"></use>
-              </svg>
-            </button>
-          </div>
+<section class="section about">
+  <div class="container">
+    <p class="title-label about__title-label">tradition and love</p>
+    <h2 class="title about__title">how it’s made?</h2>
+    <div class="box about__box">
+      <div class="thumb box__item">
+        <div class="thumb__box">
+          <picture>
+            <source
+              srcset="
+                ./images/desktop/made/made-cow-desk@1x.png 1x,
+                ./images/desktop/made/made-cow-desk@2x.png 2x
+              "
+              media="(min-width: 1280px)"
+              type="image/png"
+            />
+            <source
+              srcset="
+                ./images/tablet/made/made-cow-tab@1x.png 1x,
+                ./images/tablet/made/made-cow-tab@2x.png 2x
+              "
+              media="(min-width: 768px)"
+              type="image/png"
+            />
+            <source
+              srcset="
+                ./images/mobile/made/made-cow-mob@1x.png 1x,
+                ./images/mobile/made/made-cow-mob@2x.png 2x
+              "
+              media="(max-width: 767px)"
+              type="image/png"
+            />
+            <img src="./images/desktop/made/made-cow-desk@1x.png" alt="Cow  and milk" width="516" />
+          </picture>
         </div>
       </div>
-    </section>
-    <section class="section advantages">
-      <div class="container">
-        <h2 class="visually-hidden">Advantages</h2>
-        <ul class="advantages__list list">
-          <li class="advantages__item item">
-            <!-- свг -->
-            <span class="advantages__figures advantages__figures--bucket">721</span>
-            <p class="advantages__text">
-              Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
-            </p>
-          </li>
-          <li class="advantages__item item">
-            <!-- свг -->
-            <span class="advantages__figures advantages__figures--apples">16 kg</span>
-            <p class="advantages__text">
-              Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
-            </p>
-          </li>
-          <li class="advantages__item item">
-            <!-- свг -->
-            <span class="advantages__figures advantages__figures--heart">84</span>
-            <p class="advantages__text">
-              Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
-            </p>
-          </li>
-        </ul>
+      <div class="content-box box__item">
+        <p class="about__text">
+          Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus
+          lorem eget, egestas eros. Maecenas eleifend erat at justo fringilla.
+        </p>
+        <p class="about__text about__text--bottom">
+          Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci
+          in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna
+          maximus. Cras massa nibh, tincidunt.
+        </p>
+
+        <p class="about__text about__text--last">Aliquam erat volutpat. Aenean accumsan.</p>
+        <button type="button" class="btn about__btn" data-modal-open>
+          Read more
+          <svg class="about__icon" width="7" height="9">
+            <use href="./images/symbol-defs.svg#icon-vector-w"></use>
+          </svg>
+        </button>
       </div>
-    </section>
-    <div class="backdrop backdrop--is-hidden" data-modal>
+    </div>
+  </div>
+</section>
+<section class="section advantages">
+  <div class="container">
+    <h2 class="visually-hidden">Advantages</h2>
+    <ul class="advantages__list list">
+      <li class="advantages__item item">
+        <!-- свг -->
+        <span class="advantages__figures advantages__figures--bucket">721</span>
+        <p class="advantages__text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+      </li>
+      <li class="advantages__item item">
+        <!-- свг -->
+        <span class="advantages__figures advantages__figures--apples">16 kg</span>
+        <p class="advantages__text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+      </li>
+      <li class="advantages__item item">
+        <!-- свг -->
+        <span class="advantages__figures advantages__figures--heart">84</span>
+        <p class="advantages__text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+<!-- <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal__btn" data-modal-close>
           <svg class="modal__icon-close" width="14" height="14">
-            <use href="./images/symbol-defs.svg#vector.svg"></use>
+            <use href="./images/symbol-defs.svg#icon-close"></use>
           </svg>
         </button>
         <p class="modal__text">
@@ -114,6 +95,4 @@
           vel!
         </p>
       </div>
-    </div>
-  </body>
-</html>
+    </div> -->

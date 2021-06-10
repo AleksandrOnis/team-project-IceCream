@@ -1,13 +1,14 @@
-    .contacts {
-        background-image: linear-gradient(var(--bg-secondary-color) 100px, var(--bg-primary-color) 100px);
-        @media screen and (min-width: 1280px) {
-          padding-bottom: 84px;
-          background-image: url(../images/desktop/shops/shops-bg-desk@1x.png),
-            linear-gradient(var(--bg-secondary-color) 100px, var(--bg-primary-color) 100px);
-          background-repeat: no-repeat;
-          background-position-y: 20%;
-        }
-      }
+.contacts {
+    background-image: linear-gradient(var(--bg-secondary-color) 100px, var(--bg-primary-color) 100px);
+    @media screen and (min-width: 1280px) {
+        padding-bottom: 84px;
+        background-image: url(../images/desktop/shops/shops-bg-desk@1x.png),
+        linear-gradient(var(--bg-secondary-color) 100px, var(--bg-primary-color) 100px);
+        background-repeat: no-repeat;
+        background-position-y: 20%;
+        background-size: 100vw auto;
+    }
+}
 
 .contacts__list {
     display: block;

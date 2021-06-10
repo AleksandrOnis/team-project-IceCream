@@ -118,13 +118,13 @@
   transition: background-color var(--timing-function) var(--duration);
 }
 
-// .footer-icons__link:hover,
-// .footer-icons__link:focus {
-//   background-color: var(--btn-secondary-color);
-// }
+.footer-icons__link:hover .footer-icons__svg,
+.footer-icons__link:focus .footer-icons__svg {
+  fill: var(--btn-secondary-color);
+}
 
 .footer-icons__svg {
-  fill: var(--inversion-text-color);
+  fill: #FEA5BB;
 }
 
 .footer__connect {

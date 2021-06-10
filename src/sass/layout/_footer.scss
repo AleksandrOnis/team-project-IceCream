@@ -3,8 +3,8 @@
   background-color: var(--bg-primary-color);
   background-image: linear-gradient(
     var(--bg-primary-color) 310px,
-    #e1e1e1 311px,
-    #e1e1e1 312px,
+    var(--befor__after-color) 311px,
+    var (--befor__after-color) 312px,
     var(--bg-primary-color) 60px
   );
 
@@ -12,8 +12,8 @@
     background-color: var(--bg-primary-color);
     background-image: linear-gradient(
       var(--bg-primary-color) 291px,
-      #e1e1e1 291px,
-      #e1e1e1 292px,
+      var(--befor__after-color) 291px,
+      var(--befor__after-color) 292px,
       var(--bg-primary-color) 62px
     );
   }
@@ -22,15 +22,12 @@
     background-color: var(--bg-primary-color);
     background-image: linear-gradient(
       var(--bg-primary-color) 201px,
-      #e1e1e1 201px,
-      #e1e1e1 202px,
+      var(--befor__after-color) 201px,
+      var(--befor__after-color) 202px,
       var(--bg-primary-color) 55px
     );
   }
 }
-
-// .footer-container {
-// }
 
 .box-position {
   @media screen and (min-width: 768px) {
@@ -73,7 +70,7 @@
 .footer__title-label {
   text-align: left;
   margin-bottom: 15px;
-  font-family: Titan One;
+  font-family: var(--title-font);
   font-size: 18px;
   line-height: 1.17;
   text-transform: uppercase;
@@ -95,11 +92,6 @@
 
 .footer__social-link {
   margin-bottom: 45px;
-
-  @media screen and (min-width: 768px) {
-    // display: flex;
-    // align-items: flex-start;
-  }
 }
 
 .footer__icons {
@@ -121,7 +113,15 @@
   border-radius: 50%;
   background-color: var(--label-color);
   cursor: pointer;
+
+  background-color: var(--bg-secondary-color);
+  transition: background-color var(--timing-function) var(--duration);
 }
+
+// .footer-icons__link:hover,
+// .footer-icons__link:focus {
+//   background-color: var(--btn-secondary-color);
+// }
 
 .footer-icons__svg {
   fill: var(--inversion-text-color);
@@ -131,11 +131,11 @@
   display: flex;
   justify-content: flex-end;
 
-  font-family: dm sans;
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 12px;
   line-height: 1.86;
-  color: black;
+  color: var(--primary-text-color);
   cursor: pointer;
 
   margin-bottom: 65px;
@@ -148,7 +148,7 @@
 .footer__rights {
   display: flex;
   justify-content: center;
-  font-family: DM sans;
+  font-family: var(--main-font);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.5;

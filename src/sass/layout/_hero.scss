@@ -1,7 +1,11 @@
 .hero {
   width: 100vw;
-  min-height: 446px;
   background-color: #ffb8ca;
+  }
+
+.hero__container {
+  position: relative;
+  min-height: 446px;
   background-image: url('/images/mobile/hero/hero-ice-cream-mob@1x.png'),
     url('/images/ellipse-mobi.svg');
   background-position: top 36px right 32px, top 27px right;
@@ -26,10 +30,6 @@
       left 77px bottom 45px;
     background-repeat: no-repeat;
   }
-}
-
-.hero__container {
-  position: relative;
 }
 
 .hero__flexbox {
@@ -93,8 +93,14 @@
   color: var(--title-color);
 
   background-image: url('/images/ellipse.svg');
-  background-position: top 0 right 0;
+  background-size: 16px;
+  background-position: right 10px;
   background-repeat: no-repeat;
+
+  @media screen and (min-width: 1280px) {
+    background-size: 30px;
+    background-position: right 5px;
+  }
 }
 
 .hero__item:not(:last-child) {

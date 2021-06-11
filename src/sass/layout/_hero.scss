@@ -1,14 +1,20 @@
 .hero {
   width: 100vw;
   background-color: #ffb8ca;
+  min-height: 450px;
+  position: relative;
+  background-repeat: no-repeat;
+
+  @media screen and (max-width: (768px-0.02px)) {
+    background-image: url('/images/mobile/hero/hero-ice-cream-mob@1x.png'),
+      url('/images/ellipse-mobi.svg');
+    background-position: right 0 bottom 0;
+  }
 }
 
 .hero__container {
-  min-height: 500px;
+  min-height: 450px;
   position: relative;
-  background-image: url('/images/mobile/hero/hero-ice-cream-mob@1x.png'),
-    url('/images/ellipse-mobi.svg');
-  background-position: bottom 0 right 32px, top 27px right 0;
   background-repeat: no-repeat;
 
   // @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {

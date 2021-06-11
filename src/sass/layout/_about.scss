@@ -24,12 +24,12 @@
     padding-bottom: 146px;
     background-image: url('./../images/desktop/made/made-milk-bg-desk@1x.png');
     background-repeat: no-repeat;
-    background-position: 0% 100%;
+    background-position-y: 100%;
     background-size: 100vw auto;
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url('./../images/desktop/made/made-milk-bg-desk@2x.png');
       background-repeat: no-repeat;
-      background-position: 0% 100%;
+      background-position-y: 100%;
       background-size: 100vw auto;
     }
   }

@@ -123,6 +123,10 @@
   color: var(--btn-primary-color);
 }
 
+.hero__flexbox--column {
+  align-items: flex-end;
+}
+
 .hero__number {
   padding-top: 12px;
   font-family: var(--title-font);
@@ -136,8 +140,18 @@
   background-repeat: no-repeat;
 
   @media screen and (min-width: 1280px) {
+    font-size: 46px;
     background-size: 30px;
     background-position: right 5px;
+  }
+}
+
+.hero__location {
+  font-size: 8px;
+  line-height: 1.3;
+  
+  @media screen and (min-width: 1280px) {
+    font-size: 14px;
   }
 }
 

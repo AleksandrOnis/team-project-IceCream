@@ -10,6 +10,9 @@
       url('/images/ellipse-mobi.svg');
     background-position: right 0 bottom 0;
   }
+  @media screen and (min-width: 1280px) {
+    padding-top: 80px;
+  }
 }
 
 .hero__container {
@@ -70,9 +73,9 @@
     flex-direction: column;
   }
 
-  @media screen and (min-width: 1280px) {
-    margin-top: 80px;
-  }
+  // @media screen and (min-width: 1280px) {
+  //   margin-top: 80px;
+  // }
 }
 
 .hero__flexbox-right {

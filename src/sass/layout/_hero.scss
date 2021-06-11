@@ -69,6 +69,10 @@
   &--column {
     flex-direction: column;
   }
+
+  @media screen and (min-width: 1280px) {
+    margin-top: 80px;
+  }
 }
 
 .hero__flexbox-right {
@@ -156,7 +160,7 @@
 .hero__location {
   font-size: 6px;
   line-height: 1.3;
-  
+
   @media screen and (min-width: 1280px) {
     font-size: 14px;
   }
@@ -167,7 +171,6 @@
 }
 
 .hero__btn {
-
   border: none;
   border-radius: 22px;
   cursor: pointer;

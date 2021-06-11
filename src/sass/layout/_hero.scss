@@ -84,7 +84,7 @@
 .hero__title {
   padding-top: 137px;
   padding-bottom: 20px;
-  width: 218px;
+  width: 162px;
   font-family: var(--title-font);
   font-weight: normal;
   font-size: 26px;
@@ -99,6 +99,7 @@
   }
 
   @media screen and (min-width: 1280px) {
+    width: 218px;
     font-size: 36px;
     line-height: 1.16;
   }
@@ -166,6 +167,7 @@
 }
 
 .hero__btn {
+
   padding: 7.5px 14px;
   border: none;
   border-radius: 22px;

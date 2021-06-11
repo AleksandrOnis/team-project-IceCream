@@ -68,12 +68,13 @@
   background: var(--contacts__place-color);
   border-radius: 4px;
   font-size: 12px;
+  font-weight: 500;
   line-height: 1.86;
   align-items: center;
   justify-content: center;
   color: var(--inversion-text-color);
+
   @media screen and(min-width: 768px) {
-    font-weight: 500;
     font-size: 16px;
     width: 73px;
     height: 28px;
@@ -133,20 +134,30 @@
 .contacts__title {
   font-size: 12px;
   line-height: 1.86;
+  font-weight: 500;
   color: var(--primary-text-color);
   padding-bottom: 10px;
+
   @media screen and(min-width: 768px) {
-    font-weight: 500;
+    font-size: 16px;
+  }
+
+  @media screen and(min-width: 1280px) {
     font-size: 16px;
   }
 }
 
 .contacts__title--day {
   font-size: 12px;
+  font-weight: 500;
   line-height: 1.86;
   color: var(--primary-text-color);
+
   @media screen and(min-width: 768px) {
-    font-weight: 500;
+    font-size: 14px;
+  }
+
+  @media screen and(min-width: 1280px) {
     font-size: 16px;
   }
 }
@@ -156,16 +167,28 @@
   font-size: 12px;
   line-height: 1.5;
   color: var(--secondary-text-color);
+
   @media screen and(min-width: 768px) {
-    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.86;
+  }
+
+  @media screen and(min-width: 1280px) {
     font-size: 16px;
+    line-height: 1.83;
   }
 }
 
 .contacts__page--time {
+  font-weight: 500;
+  line-height: 1.86;
   color: var(--label-color);
+
   @media screen and(min-width: 768px) {
-    font-weight: 500;
+    font-size: 14px;
+  }
+
+  @media screen and(min-width: 1280px) {
     font-size: 16px;
   }
 }
@@ -174,6 +197,7 @@
   display: flex;
   flex-direction: column;
   font-size: 12px;
+  font-weight: 500;
   line-height: 1.5;
   color: var(--secondary-text-color);
   &::before {
@@ -184,6 +208,7 @@
     background-color: var(--befor__after-color);
     margin-bottom: 25px;
     margin-top: 25px;
+
     @media screen and(min-width: 768px) {
       margin-top: 0px;
     }
@@ -192,14 +217,13 @@
 
 .link__tel {
   @media screen and(min-width: 768px) {
-    font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 1.83;
   }
 }
 
 .link__mail {
   @media screen and(min-width: 768px) {
-    font-weight: 500;
     font-size: 16px;
   }
 }

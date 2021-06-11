@@ -2,13 +2,14 @@
   position: fixed;
   display: none;
   top: 0;
-  right: 0;
+  left: 100%;
   opacity: 0;
   width: 100%;
   height: 100vh;
   font-weight: 500;
   letter-spacing: 0.02em;
-  transition: 0.5s;
+  transition: var(--duration) var(--timing-function);
+  transition: opacity, transform 1000ms, 1000ms, var(--timing-function);
   z-index: 10;
   background-color: #e17992;
 
@@ -17,6 +18,8 @@
   }
 
   &.is-open {
+    left: 0;
+    
     opacity: 1;
     display: block;
     overflow-y: scroll;
